@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo JavaScript</title>
+    <style>
+        body{
+            background-color: rgb(241, 255, 251);
+            color: #000000;
+            font: normal 20pt Arial;
+        }
+        h1{
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1>
+    <p>Já me livrei da maldição</p>
+    <input id = "nome" type="text" maxlength="50" placeholder="digite o seu nome">
+    <input id = "confirmacao" type="button" value="Cadastrar">
+    <script>
+        var n1 = Number.parseInt(window.prompt('Digite um número: '))  
+        var n2 = Number.parseFloat(window.prompt('Digite outro número: '))
+        var s = n1 + n2
+        window.alert('A soma é ' + s )  //concatenação
+        var teste = Number(window.prompt('Digite para teste: ')) // O Cod Number por si só já detecta se o número será Inteiro ou Real(Float)
+        window.alert('O resultado é ' + teste ) 
+        var n3 = Number.parseFloat(window.prompt('Digite outro número: '))
+        window.alert('Segundo teste ' + n3.toString() )  // ou no lugar de toString, String(n3)
+        
+        window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`)  
+   </script>
+</body>
+</html>
