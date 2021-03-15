@@ -1,0 +1,23 @@
+body {
+    background: #4545;
+    font: normal 15pt Arial;
+}
+
+header {
+    text-align: center;
+}
+
+section {
+    color: cornsilk;
+    background: #fa0606b6;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 3px rgb(77, 76, 76);
+}
+
+footer {
+    text-align: center;
+    font-style: italic;
+}
